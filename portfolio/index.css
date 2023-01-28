@@ -1,0 +1,129 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.nav-bar{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #212023;
+   color: antiquewhite;
+   padding: 2rem 4rem;
+}
+.nav-links{
+   display: flex;
+   gap: 3rem;
+}
+
+.nav-links > a{
+   text-decoration: none;
+   color: antiquewhite;
+   font-size: 18px;
+   cursor: pointer;
+}
+.hero{
+background-color: #212023;
+min-height: 70vh;
+}
+.home-desc{
+   display: flex;
+   justify-content: space-between;
+   width: 80%;
+   margin: auto;
+   padding-top: 12rem;
+   color: antiquewhite;
+}
+.home-desc > img{
+   width: 450px;
+   height: 350px;
+}
+.home-content{
+   width: 50%;
+}
+.home-content > h1{
+   font-size: 3rem;
+   margin-bottom: 3rem;
+   width: 100%;
+}
+.name-style{
+   color: yellowgreen;
+}
+.home-content > p {
+   width: 80%;
+   margin-bottom: 3rem;
+   line-height: 30px;
+}
+.home-content > a > button{
+   background-color: transparent;
+   color: antiquewhite;
+   border-radius: 999px;
+   border: 1px solid antiquewhite;
+   cursor: pointer;
+   padding: 1rem 4rem;
+}
+.home-content > a > button:hover{
+   background-color: aliceblue;
+   color: #212023;
+   font-weight: bold;
+}
+.resume > h1{
+   text-align: center;
+   font-size: 3rem;
+   margin-top: 3rem;
+   margin-bottom: 3rem;
+}
+
+.resume-cont{
+   width: 80%;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.resume-item{
+   width: 40%;
+}
+
+.resume-cont > h1{
+   text-decoration: underline;
+   text-decoration-color: red;
+   font-family: cursive;
+}
+
+.contacts{
+   width: 80%;
+   margin: auto;
+   margin-top: 3rem;
+   margin-bottom: 3rem;
+}
+
+.contacts > h1{
+   text-align: center;
+   font-size: 3rem;
+   margin-top: 3rem;
+   margin-bottom: 3rem;
+}
+
+.contacts > form > label{
+   font-size: 1.3rem;
+   font-weight: bold;
+}
+
+.contacts > form > input{
+   width: 30%;
+   padding: 10px;
+}
+
+.contacts > form > textarea{
+   width: 30%;
+   padding: 10px;
+}
+
+.sendMessage{
+   color: #212023;
+   border: 1px solid #212023;
+   padding: 0.8rem 3.5rem;
+   cursor: pointer;
+}
